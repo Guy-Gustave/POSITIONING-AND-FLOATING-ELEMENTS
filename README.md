@@ -1,7 +1,7 @@
 
 **POSITIONING-AND-FLOATING-ELEMENTS** <br>
 
-This is a project to The New York Times homepage as part of completing the technical curriculum at Microverse.org
+This is a project to clone The New York Times homepage as part of completing the technical curriculum at Microverse.org
 
 
 **Built With**
@@ -13,13 +13,6 @@ This is a project to The New York Times homepage as part of completing the techn
 
 
 **Authors**
-
-> Guy Gustave NIGABA
-- <a src=" https://github.com/Guy-Gustave" target="_blank">GitHub</a>
-- <a src="https://www.linkedin.com/in/guy-gustave-nigaba-7988ba181/" target="_blank">LinkedIn</a>
-
-> Kalu Agu Kalu
-- <a src=" https://github.com/Godswilly" target="_blank">GitHub</a>
-
-
-
+- [Guy Gustave NIGABA](https://github.com/Guy-Gustave)
+                      (https://www.linkedin.com/in/guy-gustave-nigaba-7988ba181/)
+- [Kalu Agu Kalu](https://github.com/Godswilly)
