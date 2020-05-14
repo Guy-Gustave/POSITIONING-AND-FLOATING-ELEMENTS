@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    padding: 10px 15px;
+}
+.left-bar{
+
+}
