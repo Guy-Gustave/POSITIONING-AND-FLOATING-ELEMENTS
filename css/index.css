@@ -5,7 +5,16 @@ body{
 .navbar{
     display: flex;
     padding: 10px 15px;
+    height: 45px;
+    width: 100%;
+    border: 1px green solid;
+    margin 10px;
 }
 .left-bar{
-
+    align-items: center;
+}
+.left-bar a{
+    background-color: none;
+    padding-left: 10px;
+    border: none;
 }
