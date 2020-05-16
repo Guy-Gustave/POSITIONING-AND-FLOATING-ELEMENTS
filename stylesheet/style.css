@@ -27,17 +27,20 @@ a {
     background-color: #fff;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     top: 0;
     border-bottom: 1px solid #dcdcdc;
     width: 100%;
     z-index: 1;
 }
-.left_menu > img { 
+.left_menu > img {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
     height: 16px;
     width: 16px;
     padding: 8px;
     vertical-align: middle;
+    color: black;
 }
 .right_menu > nav {
 	float: right;
@@ -75,4 +78,39 @@ a:visited {
 
 a:hover { 
     text-decoration: underline;
+}
+main {
+	margin-top: 300px;
+}
+.small-text {
+  color: #888;
+}
+#space {
+  width: 960px;
+  margin: 20px auto;
+}
+#space h1 {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: justify;
+  margin: 0 100px 12px 150px;
+}
+#space img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#space p {
+  line-height: 1.3;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+#space span {
+  text-size-adjust: 100%;
+  font-size: 13px;
+  vertical-align: baseline;
 }
