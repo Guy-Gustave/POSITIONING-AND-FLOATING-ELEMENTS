@@ -15,6 +15,7 @@ a {
 
 .nav-main {
 	display: flex;
+	position: fixed;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
@@ -22,7 +23,7 @@ a {
     text-align: center;
     padding: 12px 12px 8px 12px;
     font-size: 14px;
-    letter-spacing: 0.7px;
+    letter-spacing: 1px;
     line-height: 19px;
     background-color: #fff;
     justify-content: space-between;
@@ -31,16 +32,21 @@ a {
     border-bottom: 1px solid #dcdcdc;
     width: 100%;
     z-index: 1;
+    height: 50px;
+ 
+}
+strong {
+	color: black;
 }
 .left_menu > img {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-    height: 16px;
-    width: 16px;
-    padding: 8px;
-    vertical-align: middle;
-    color: black;
+	justify-content: space-between;
+}
+.left_menu {
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .right_menu > nav {
 	float: right;
@@ -113,4 +119,30 @@ main {
   text-size-adjust: 100%;
   font-size: 13px;
   vertical-align: baseline;
+}
+.container {
+  margin: 0 130px 0 130px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-auto-rows: minmax(auto);
+}
+.item-one {
+  grid-row: 3;
+  grid-column: 2;
+}
+.social {
+	display: flex;
+	flex-flow: row nowrap;
+	float: right;
+}
+strong {
+  font-weight: 800;
+}
+.more-articles {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+} 
+p {
+	font-size: 20px;
 }
