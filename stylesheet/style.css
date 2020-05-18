@@ -22,13 +22,10 @@ a {
     font-weight: 700;
     text-align: center;
     padding: 12px 12px 8px 12px;
-<<<<<<< HEAD
     font-size: px;
     letter-spacing: 0.7px;
-=======
     font-size: 14px;
     letter-spacing: 1px;
->>>>>>> dd946cc3d2fc33b0d5f0bcfba45c1e4b9074eee7
     line-height: 19px;
     background-color: #fff;
     justify-content: space-between;
@@ -90,7 +87,6 @@ a:visited {
 a:hover { 
     text-decoration: underline;
 }
-<<<<<<< HEAD
 
 .bottom-grid{
     display: grid;
@@ -101,19 +97,7 @@ a:hover {
     margin: 0 auto;
     padding-bottom: 50px;
 }
-/* .most-popular {
-    float: right;
-    border-top: 1px solid #999;
-    max-width: 290px;
-  }
-  .popular-title {
-    margin: 10px auto 5px;
-    font-size: 16px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid #e2e2e2;
-    padding-bottom: 20px;
-  } */
- 
+
   .galerie {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -141,9 +125,8 @@ a:hover {
   .First-line{
       font-size: 0.8em;
   }
-=======
 main {
-	margin-top: 300px;
+	margin-top: 100px;
 }
 .small-text {
   color: #888;
@@ -191,6 +174,7 @@ main {
 	display: flex;
 	flex-flow: row nowrap;
 	float: right;
+	vertical-align: middle;
 }
 strong {
   font-weight: 800;
@@ -203,4 +187,3 @@ strong {
 p {
 	font-size: 20px;
 }
->>>>>>> dd946cc3d2fc33b0d5f0bcfba45c1e4b9074eee7
