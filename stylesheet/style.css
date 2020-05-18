@@ -15,29 +15,43 @@ a {
 
 .nav-main {
 	display: flex;
+	position: fixed;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
     text-align: center;
     padding: 12px 12px 8px 12px;
+<<<<<<< HEAD
     font-size: px;
     letter-spacing: 0.7px;
+=======
+    font-size: 14px;
+    letter-spacing: 1px;
+>>>>>>> dd946cc3d2fc33b0d5f0bcfba45c1e4b9074eee7
     line-height: 19px;
     background-color: #fff;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     top: 0;
     border-bottom: 1px solid #dcdcdc;
     width: 100%;
     z-index: 1;
+    height: 50px;
+ 
 }
-.left_menu > img { 
-    height: 16px;
-    width: 16px;
-    padding: 8px;
-    vertical-align: middle;
+strong {
+	color: black;
+}
+.left_menu > img {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.left_menu {
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .right_menu > nav {
 	float: right;
@@ -76,6 +90,7 @@ a:visited {
 a:hover { 
     text-decoration: underline;
 }
+<<<<<<< HEAD
 
 .bottom-grid{
     display: grid;
@@ -126,3 +141,66 @@ a:hover {
   .First-line{
       font-size: 0.8em;
   }
+=======
+main {
+	margin-top: 300px;
+}
+.small-text {
+  color: #888;
+}
+#space {
+  width: 960px;
+  margin: 20px auto;
+}
+#space h1 {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: justify;
+  margin: 0 100px 12px 150px;
+}
+#space img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#space p {
+  line-height: 1.3;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+#space span {
+  text-size-adjust: 100%;
+  font-size: 13px;
+  vertical-align: baseline;
+}
+.container {
+  margin: 0 130px 0 130px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-auto-rows: minmax(auto);
+}
+.item-one {
+  grid-row: 3;
+  grid-column: 2;
+}
+.social {
+	display: flex;
+	flex-flow: row nowrap;
+	float: right;
+}
+strong {
+  font-weight: 800;
+}
+.more-articles {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+} 
+p {
+	font-size: 20px;
+}
+>>>>>>> dd946cc3d2fc33b0d5f0bcfba45c1e4b9074eee7
