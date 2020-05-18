@@ -86,7 +86,7 @@ a:hover {
     text-decoration: underline;
 }
 main {
-	margin-top: 300px;
+	margin-top: 100px;
 }
 .small-text {
   color: #888;
@@ -134,6 +134,7 @@ main {
 	display: flex;
 	flex-flow: row nowrap;
 	float: right;
+	vertical-align: middle;
 }
 strong {
   font-weight: 800;
