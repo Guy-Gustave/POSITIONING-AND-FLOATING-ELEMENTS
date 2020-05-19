@@ -167,8 +167,7 @@ main {
   grid-auto-rows: minmax(auto);
 }
 .item-one {
-  grid-row: 3;
-  grid-column: 2;
+  grid-column: 2 / 3;
 }
 .social {
 	display: flex;
@@ -212,7 +211,6 @@ p {
 
 .mid-grid::after {
   width: 60px;
-  content: '';
   display: inline-block;
   height: 1px;
   margin: 0 0 13px;
@@ -232,7 +230,6 @@ p {
   width: 945px;
   top: 140px;
 }
-
 .center-text {
   align-self: baseline;
 }
@@ -246,9 +243,12 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   padding-right: 10px;
 }
-
 .center-text span {
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 0.05em;
+}
+.article {
+	display: grid;
+	grid-column: 2 / 4;
 }
