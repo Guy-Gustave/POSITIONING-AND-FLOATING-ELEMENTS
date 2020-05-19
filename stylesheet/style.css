@@ -230,14 +230,14 @@ main {
   grid-auto-rows: minmax(auto);
 }
 .item-one {
-  grid-column: 2;
+  grid-column: 3;
   grid-row: 3;
 }
 .social {
 	display: flex;
 	flex-flow: row nowrap;
 	float: right;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 }
 strong {
   font-weight: 800;
@@ -247,14 +247,14 @@ strong {
   padding: 20px;
   text-align: center;
 } 
+.touppercase {
+  text-transform: uppercase;
+}
 p {
 	font-size: 20px;
 }
 .center-content {
   margin: 0 auto;
-}
-.item-one p {
-  align-content: initial;
 }
 .center-content h2 {
   margin-bottom: 8px;
