@@ -120,6 +120,7 @@ a:hover {
    text-decoration: none;
    color: rgb(18, 18, 18);
 }
+
   .footer-list{
     margin: auto;
       width: 90%;
@@ -135,8 +136,58 @@ a:hover {
       font-size: 0.8em;
   }
   .header-footer{
-    margin-left: 30px;
+    margin-left: 10px;
+    grid-column: 1 / -1;
   }
+  .img1{
+    width: 16px;
+    height: 14px;
+    padding-right: 3px;
+  }
+  
+  .img2 {
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+  }
+  
+  .img3 {
+    width: 18px;
+    height: 18px;
+    padding-right: 7px;
+  }
+  
+  .img4 {
+    width: 20px;
+    height: 20px;
+    padding-right: 9px;
+  }
+  .last-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 20px auto 10px auto;
+    border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 70px;
+  }
+  .solid-title {
+    margin-bottom: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: medium;
+  }
+  .line {
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    padding: 10px 0;
+  }
+  .fixed-footer p {
+    font-family: Helvetica, Arial, sans-serif;
+    align-items: center;
+  }
+
 main {
 	margin-top: 100px;
 }
@@ -198,4 +249,69 @@ strong {
 } 
 p {
 	font-size: 20px;
+}
+.center-content {
+  margin: 0 auto;
+  width: 945px;
+}
+
+.center-content h2 {
+  margin-bottom: 8px;
+}
+
+.inflation-img {
+  display: grid;
+  justify-content: center;
+  width: 945px;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.inflation-img img {
+  max-width: 100%;
+  justify-self: center;
+}
+
+.mid-grid::after {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
+.inflation-img footer {
+  margin-top: 50px;
+}
+
+.mid-grid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 170px;
+  align-items: flex-end;
+  width: 945px;
+  top: 140px;
+}
+
+.center-text {
+  align-self: baseline;
+}
+
+.mid-grid p {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+}
+
+.center-text span {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
