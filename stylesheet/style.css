@@ -89,30 +89,40 @@ a:hover {
 }
 
 .bottom-grid{
-    display: grid;
-    grid-template-columns: 70%;
-    grid-template-rows: auto;
-    grid-gap: 30px;
-    width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 65%;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
-
-  .galerie {
+ .galerie{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 15px;
-  }
+    grid-gap: 10px;
+ }
+ .grid-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+ }
   .more-popular {
     font-size: 15px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 700;
     padding-top: 20px;
     margin-bottom: 15px;
+    border-top: 1 px solid b;
+    grid-column-start: 4;
+    grid-row-end: auto;
   }
+.link {
+   text-decoration: none;
+   color: rgb(18, 18, 18);
+}
 
   .footer-list{
+    margin: auto;
       width: 90%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -125,6 +135,59 @@ a:hover {
   .First-line{
       font-size: 0.8em;
   }
+  .header-footer{
+    margin-left: 10px;
+    grid-column: 1 / -1;
+  }
+  .img1{
+    width: 16px;
+    height: 14px;
+    padding-right: 3px;
+  }
+  
+  .img2 {
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+  }
+  
+  .img3 {
+    width: 18px;
+    height: 18px;
+    padding-right: 7px;
+  }
+  
+  .img4 {
+    width: 20px;
+    height: 20px;
+    padding-right: 9px;
+  }
+  .last-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 20px auto 10px auto;
+    border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 70px;
+  }
+  .solid-title {
+    margin-bottom: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: medium;
+  }
+  .line {
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    padding: 10px 0;
+  }
+  .fixed-footer p {
+    font-family: Helvetica, Arial, sans-serif;
+    align-items: center;
+  }
+
 main {
 	margin-top: 100px;
 }
