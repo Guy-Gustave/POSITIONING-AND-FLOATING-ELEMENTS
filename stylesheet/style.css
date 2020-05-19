@@ -88,9 +88,9 @@ a:hover {
     text-decoration: underline;
 }
 
-.bottom-grid{
+.right-left{
   display: grid;
-  grid-template-columns: 65%;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
   grid-gap: 30px;
   margin: 0 auto;
@@ -101,22 +101,35 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
+    padding: 30px;
  }
  .grid-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
  }
-  .more-popular {
+.grids{
+  display: flex;
+  
+  padding: 30px;
+  
+}
+ .last-grid{
+  align-content: space-between;
+
+ }
+  .most-popular {
+    align-items: flex-end;
     font-size: 15px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 700;
     padding-top: 20px;
     margin-bottom: 15px;
     border-top: 1 px solid b;
-    grid-column-start: 4;
+    grid-column-start: 2;
     grid-row-end: auto;
+    color: black;
   }
-.link {
+.more-links {
    text-decoration: none;
    color: rgb(18, 18, 18);
 }
