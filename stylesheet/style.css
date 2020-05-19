@@ -194,11 +194,11 @@ main {
 .small-text {
   color: #888;
 }
-#space {
+.space {
   width: 960px;
   margin: 20px auto;
 }
-#space h1 {
+.space h1 {
   color: #121212;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
@@ -208,17 +208,17 @@ main {
   text-align: justify;
   margin: 0 100px 12px 150px;
 }
-#space img {
+.space img {
   width: 100%;
   margin-bottom: 10px;
 }
-#space p {
+.space p {
   line-height: 1.3;
   margin-right: 7px;
   color: #666;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
-#space span {
+.space span {
   text-size-adjust: 100%;
   font-size: 13px;
   vertical-align: baseline;
@@ -230,7 +230,8 @@ main {
   grid-auto-rows: minmax(auto);
 }
 .item-one {
-  grid-column: 2 / 3;
+  grid-column: 2;
+  grid-row: 3;
 }
 .social {
 	display: flex;
@@ -251,13 +252,13 @@ p {
 }
 .center-content {
   margin: 0 auto;
-  width: 945px;
 }
-
+.item-one p {
+  align-content: initial;
+}
 .center-content h2 {
   margin-bottom: 8px;
 }
-
 .inflation-img {
   display: grid;
   justify-content: center;
@@ -266,12 +267,10 @@ p {
   margin: 0 auto;
   padding-bottom: 20px;
 }
-
 .inflation-img img {
   max-width: 100%;
   justify-self: center;
 }
-
 .mid-grid::after {
   width: 60px;
   display: inline-block;
@@ -281,22 +280,19 @@ p {
 }
 
 .inflation-img footer {
-  margin-top: 50px;
+  margin-top: 40px;
 }
-
 .mid-grid {
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 300px 170px;
-  align-items: flex-end;
   width: 945px;
   top: 140px;
 }
 .center-text {
   align-self: baseline;
 }
-
 .mid-grid p {
   font-size: 14px;
   line-height: 17px;
@@ -310,8 +306,4 @@ p {
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 0.05em;
-}
-.article {
-	display: grid;
-	grid-column: 2 / 4;
 }
