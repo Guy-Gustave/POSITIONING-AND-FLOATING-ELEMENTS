@@ -21,7 +21,7 @@ In this project, we aimed at producing a close replica of the New York Times new
   * W3C Validator
 
 ## Live demo
-
+https://rawcdn.githack.com/Guy-Gustave/POSITIONING-AND-FLOATING-ELEMENTS/tree/feature
 
 ## Getting started
 **For this project, we tried our best to recreate the New York Times web page. The main aim is to ensure the elements get placed and styled roughly the same way as the New York Times page.**
@@ -36,13 +36,13 @@ We built our own page in a .html text file and opened it in our browser to check
 ## Authors
  :bust_in_silhouette: **Author 1**
  * Github: https://github.com/Guy-Gustave
- * Twitter: 
  * LinkedIn: https://www.linkedin.com/in/guy-gustave-nigaba/
+ * Twitter:
  
  :bust_in_silhouette: **Author 2**
  * Github: https://github.com/Godswilly
- * Twitter: https://twitter.com/KaluAguKalu17
  * LinkedIn: https://www.linkedin.com/in/kalu-agu-kalu/
+ * Twitter: https://twitter.com/KaluAguKalu17
 
 ## Contributing
 Contributions, issues and feature requests are welcome!
