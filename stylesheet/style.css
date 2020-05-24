@@ -316,6 +316,7 @@ span.socials {
 }
 .right {
   border-top: 1px solid black;
+  color: #000;
 }
 .right-title {
   font-size: 15px;
@@ -326,7 +327,7 @@ span.socials {
 }
 .links {
   text-decoration: none;
-  color: rgb(18, 18, 18);
+  color: rgb(0, 0, 0);
 }
 .links h2 {
   font-size: 19px;
@@ -335,9 +336,11 @@ span.socials {
   font-weight: 500;
   padding: 15px 0;
   border-top: 1px solid rgb(226, 226, 226);
+  color: rgb(48, 47, 47);
 }
 .links:hover {
   color: #888;
+  text-decoration: none;
 }
 .footer-list {
   margin: auto;
@@ -406,10 +409,16 @@ span.socials {
     padding-bottom: 70px;
   }
   .solid-title {
-    margin-bottom: 20px;
+    margin-top: 20px;
     display: inline-block;
-    text-transform: capitalize;
     font-size: medium;
+    padding-bottom: 20px;
+  }
+  .inline{
+    display: inline-flex;
+    align-items: center;
+    color: solid black;
+    text-transform: capitalize;
   }
   .line {
     color: #666;
