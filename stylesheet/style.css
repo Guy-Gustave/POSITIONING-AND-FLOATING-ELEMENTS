@@ -421,7 +421,7 @@ a:hover {
 
 .section-ad {
   width: 250px;
-  margin: 10px 15px 60px 0;
+  margin: 10px 5px 40px 0;
 }
 
 .section-ad h4 {
@@ -633,7 +633,7 @@ a:hover {
   border-top: 1px solid black;
   height: 52px;
   bottom: 0;
-  position: fixed;
+  position: sticky;
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -643,6 +643,7 @@ a:hover {
   border: none;
   font-weight: 600;
   font-size: 11px;
+  background-color: #fff;
 }
 
 .fixed-footer button img {
