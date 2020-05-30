@@ -627,3 +627,28 @@ a:hover {
 .menu6-bottom {
   margin-top: 30px;
 }
+
+.fixed-footer {
+  display: flex;
+  border-top: 1px solid black;
+  height: 52px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fixed-footer button {
+  border: none;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.fixed-footer button img {
+  max-width: 10px;
+  height: 10px;
+  padding-left: 30px;
+  transform: rotate(180deg);
+  transform-origin: 100%;
+}
