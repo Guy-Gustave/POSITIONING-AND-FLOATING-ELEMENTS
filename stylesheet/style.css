@@ -81,6 +81,9 @@ a:hover {
 }
 
 .foot-font1 img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
   height: 15px;
   width: 15px;
   padding-right: 10px;
@@ -89,6 +92,9 @@ a:hover {
 .footer-img img {
   height: 50px;
   width: 300px;
+}
+.footer-img img {
+  max-width: 230px;
 }
 
 .container img {
@@ -514,14 +520,6 @@ a:hover {
   margin-right: 15px;
 }
 
-.footer-hr {
-  background-color: gray;
-  border-bottom: 1px solid #e2e2e2;
-  border-top: 2px solid #e2e2e2;
-  height: 2px;
-  width: 1200px;
-}
-
 .menu-1 {
   grid-row-start: fr-2;
   grid-row-end: fr-3;
@@ -579,15 +577,25 @@ a:hover {
 }
 
 .foot-font1 {
-  display: flex;
   font-weight: bolder;
   font-size: 12px;
+}
+
+.foot-font a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
 
 .menu-6f {
   margin-left: 15px;
   margin-top: 7px;
   font-size: 13px;
+}
+
+.menu-6f a {
+  font-size: 11px;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
 
 .menu-gap {
