@@ -91,9 +91,6 @@ a:hover {
 
 .footer-img img {
   height: 50px;
-  width: 300px;
-}
-.footer-img img {
   max-width: 230px;
 }
 
@@ -498,8 +495,8 @@ a:hover {
   grid-row-end: 17;
   grid-template-columns: [fc-1] 1fr [fc-2] 1fr [fc-3] 1fr [fc-4] 1fr [fc-5] 1fr [fc-6] 1fr [fc-7];
   grid-template-rows: [fr-1] auto [fr-2] auto [fr-3] auto [fr-4];
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 45px;
+  margin-right: 40px;
 }
 
 .footer-img {
